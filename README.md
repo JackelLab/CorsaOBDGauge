@@ -16,7 +16,32 @@ https://github.com/EVNotify/EVNotify/issues/205
 
 With this information, I was finally able to get access to the data from the car.
 
-I built a PCB with an ESP32 as the main processor as it has Bluetooth builtin, an LCD
-from ebay with 160 x 80 pixels
+I built a PCB with an ESP32-WROVER-IE as the main processor as it has Bluetooth builtin,
+a 0.96" LCD from ebay with 160 x 80 pixel 65k colours.
+
+The features I've added so far are:
+
+SOC        - Battery state of charge. I've used the non calibrated version, I don't know
+what the differences are.
+
+SOH        - Battery state of health. This only shows after the unit has setup and
+checked communications with the OBD adaptor and car.
+
+SOC Delta  - State of charge change. This shows to SOC change since the unit was powered
+up, ideal for tracking how much battery has been used for a journey or how much battery
+has been added while charging.
+
+Temperature - Battery temperature.
+
+Speed       - Shows the speed in 100th of MPH which can be re-calibrated if measured
+against a GPS speedo.
+
+Voltage     - OBD 12V battery voltage. Measured at the OBD adaptor.
+
+Est. Range  - Estimated range based on speed and battery percentage used over the last
+minute and 5 minutes.
+
+
+There is a reed switch to change what information is being shown
 
 WIP....
