@@ -1,0 +1,16 @@
+﻿Ref,Desc,Package,Qty,PN,Manu,Notes
+"C1,C3-C4,C7-C8",100nF Capacitor 50V,0603,5,Any,Any,
+C2,10uF Capacitor 25V X5R,0603,1,Any,Any,
+C5-C6,22uF Capacitor 6.3V X5R,0603,2,Any,Any,
+CON1,3 Way RA Pin Header,,1,TSM-102-01-T-SH,Samtec,Can solder wires to pads instead
+CON2,Tag 6 Pin Programming Header,,NF,,,
+IC1,3.3V FixedBuck Regulator,TSOT-26-6,1,AP63203WU-7,Diodes Inc,
+L1,6.8uH Inductor,,1,LQH3NPN6R8MMEL,MURATA,Or equivelent with same footprint
+LCD1,"ST7735 0.96"" 160x80 Pixel LCD (Solder Type)",,1,LH096NT-IG11G,Limito,Soldered direct to the board
+MOD1,ESP32-Wrover,,1,ESP32-WROVER-IE 8MB,Expressif,
+"R1-R6,R8",10K 1% Resistor,0603,7,Any,Any,
+R7,1K 1% Resistor,0603,1,Any,Any,
+R9,10R 1% Resistor,0603,1,Any,Any,
+Rx,0R Link,0201,1,Any,Any,Used to replace the link on the ESP32 Module
+SW1,Reed Switch,,1,MASM-14R-10-15,Littelfuse,
+TR1-TR2,N-Channel Power MOSFET,SOT23,2,DMG2302U-7,Dides Inc,
